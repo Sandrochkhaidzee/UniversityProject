@@ -6,7 +6,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
   const errorMessage = document.getElementById('error-message');
 
   if (!email || !password) {
-    displayError("Please fill out all fields.");
+    displayError("შეავსეთ ყველა ველი!");
     return;
   }
 
@@ -19,11 +19,11 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 
       if (student) {
         console.log("Login successful!");
-        alert("Welcome back!");
+        alert("მოგესალმებით!");
         
         document.getElementById('login-form').reset();
       } else {
-        displayError("Incorrect email or password.");
+        displayError("არასწორი E-mail ან პაროლი.");
       }
     })
     .catch((error) => {
