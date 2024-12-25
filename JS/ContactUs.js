@@ -8,17 +8,17 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     const errorMessage = document.getElementById('error-message');
 
     if (!name || !email || !website || !message) {
-        displayError("Please fill out all fields.");
+        displayError("შეავსეთ ყველა ველი!");
         return;
     }
 
     if (!validateName(name)) {
-        displayError("Name must be in the format 'Name Surname' with only alphabetic characters.");
+        displayError("სახელი უნდა იყოს ასოები და შემდეგი ფორმატით 'სახელი გვარი'!");
         return;
     }
 
     if (!validateURL(website)) {
-        displayError("Please enter a valid website URL.");
+        displayError("შეიყვანეთ სწორი ვებ-საიტის URL!");
         return;
     }
 
@@ -70,7 +70,7 @@ function submitToAPI(data) {
     .then(response => response.json())
     .then(data => {
         console.log('Success:', data);
-        alert("Your message has been sent successfully!");
+        alert("მესიჯი წარმატებით გაეგზავნა!");
     })
     .catch((error) => {
         console.error('Error:', error);
