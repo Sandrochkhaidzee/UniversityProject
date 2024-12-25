@@ -12,7 +12,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 
   const loginData = generateLoginJson(email, password);
 
-  fetch('API/Events.json')
+  fetch('API/Students.json')
     .then(response => response.json())
     .then(students => {
       const student = students.find(student => student.Email === loginData.email && student.Password === loginData.password);
