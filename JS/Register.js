@@ -8,17 +8,17 @@ document.getElementById('register-form').addEventListener('submit', function(eve
   const confirmPassword = document.getElementById('confirm-password').value.trim();
 
   if (!firstName || !lastName || !email || !password || !confirmPassword) {
-    displayError("All fields are required!");
+    displayError("შეავსეთ ყველა ველი!");
     return;
   }
 
   if (!validateLetters(firstName) || !validateLetters(lastName)) {
-    displayError("First and last names can only contain letters.");
+    displayError("სახელი და გვარი უნდა იყოს ასოები.");
     return;
   }
 
   if (password !== confirmPassword) {
-    displayError("Passwords do not match!");
+    displayError("პაროლები არ ემთხვევა!");
     return;
   }
 
@@ -72,7 +72,7 @@ function submitToAPI(data) {
   })
   .then(data => {
     console.log('Success:', data);
-    alert("You have successfully registered!");
+    alert("წარმატებით დარეგისტრირდი!");
   })
   .catch((error) => {
     console.error('Error:', error);
