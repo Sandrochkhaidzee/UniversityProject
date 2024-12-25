@@ -27,9 +27,11 @@ function createEventCard(event) {
     eventLocation.innerHTML = `<i class="fas fa-map-marker-alt"></i>${event.location}`;
 
     eventCard.addEventListener('click', () => {
-        const eventDetailsUrl = `EventDetails.html?eventName=${encodeURIComponent(event.eventName)}&eventDate=${encodeURIComponent(event.eventDate)}&eventDescription=${encodeURIComponent(JSON.stringify(event.eventDescription))}&location=${encodeURIComponent(event.location)}&picture=${encodeURIComponent(event.picture)}`;
+        const eventDetailsUrl = `EventDetails.html?eventName=${encodeURIComponent(event.eventName)}&eventDate=${encodeURIComponent(event.eventDate)}&eventDescription=${encodeURIComponent(JSON.stringify(event.eventDescription))}&location=${encodeURIComponent(event.location)}&picture=${encodeURIComponent(event.picture)}&eventPrice=${encodeURIComponent(event.price)}&eventStartTime=${encodeURIComponent(event.eventStartTime)}&quizAmount=${encodeURIComponent(event.quizzes)}&topicsAmount=${encodeURIComponent(event.topics)}&seatsAmount=${encodeURIComponent(event.totalSeats)}`;
+        
         window.location.href = eventDetailsUrl;
     });
+    
 
     eventCard.appendChild(eventImageContainer);
     eventCard.appendChild(eventDate);
