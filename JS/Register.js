@@ -26,8 +26,9 @@ document.getElementById('register-form').addEventListener('submit', function(eve
   console.log(JSON.stringify(formDataJson));
 
   // submitToAPI(formDataJson);
-
   document.getElementById('register-form').reset();
+
+  alert("Successfully registered a new account!");
   window.location.href = "EventsList.html";
 });
 
