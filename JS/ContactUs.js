@@ -43,6 +43,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     
     // submitToAPI(formDataJson);
 
+    alert("Message sent successfully!");
     document.getElementById('contact-form').reset();
 });
 
