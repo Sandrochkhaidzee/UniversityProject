@@ -28,6 +28,7 @@ document.getElementById('register-form').addEventListener('submit', function(eve
   // submitToAPI(formDataJson);
 
   document.getElementById('register-form').reset();
+  window.location.href = "EventsList.html";
 });
 
 function displayError(message) {
