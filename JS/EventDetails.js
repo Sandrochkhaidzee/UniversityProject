@@ -23,6 +23,7 @@ async function getEventDetails() {
 
         if (!event) {
             console.error("Event not found.");
+            window.location.href = "EventsList.html";
             return;
         }
 
