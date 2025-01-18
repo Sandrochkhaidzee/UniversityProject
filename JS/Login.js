@@ -19,12 +19,11 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 
           if (student) {
               console.log("Login successful!");
-              alert("Welcome back!");
-              
               sessionStorage.setItem("loggedIn", "true");
-              window.location.href = "EventsList.html";
-              
               document.getElementById('login-form').reset();
+            
+              alert("Welcome back!");
+              window.location.href = "EventsList.html";
           } else {
               displayError("Incorrect email or password.");
           }
