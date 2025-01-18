@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #161439;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 60px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.event-card {
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    width: 120%;
+    height: 350px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.event-image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+.event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.event-date {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    padding: 6px 15px;
+    background: #FFC224;
+    color: #161439;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #161439;
+    box-shadow: 4px 4px 0px 0px #3D3D3D;
+}
+
+.event-title {
+    padding-top: 25px;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #161439;
+    text-align: left;
+    margin: 0;
+}
+
+.event-description {
+    margin-top: 5px;
+    padding-left: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D6C80;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.event-location {
+    position: absolute;
+    bottom: 10px;
+    left: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D6C80;
+    display: flex;
+    align-items: center;
+}
+
+.pagesC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.pagesC button {
+    background-color: #FFC224;
+    color: #161439;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 4px 4px 0px 0px #3D3D3D;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pagesC button:hover {
+    background-color: #FFC224;
+    transform: scale(1.1);
+}
+
+.header-box {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.header-container {
+    display: flex;
+    gap: 20px;
+}
+
+.header-button {
+    background-color: #FFC224;
+    color: #161439;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10%;
+    box-shadow: 4px 4px 0px 0px #3D3D3D;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header-button:hover {
+    background-color: #e0a500;
+}

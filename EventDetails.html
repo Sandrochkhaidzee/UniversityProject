@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <link rel="stylesheet" href="CSS/EventDetails.css">
+    <script src="JS/EventDetails.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <button onclick="window.history.back()">დაბრუნდი უკან</button>
+
+    <div class="event-details-container">
+        <div id="event-image-container">
+            <img id="event-image" alt="Event Image">
+        </div>
+        <h1 id="event-name"></h1>
+        <p id="event-location"></p>
+        <p id="event-description"></p>
+
+        <div class="floating-event-details">
+            <div class="price-frame">
+                <p>კურსის საფასური</p>
+                <p><span id="event-price"></span></p>
+            </div>
+            <h3>კურსზე ინფორმაცია:</h3>
+            <p><strong>თარიღი:</strong> <span id="event-date"></span></p>
+            <p><strong>დაწყების დრო:</strong> <span id="event-start-time"></span></p>
+            <p><strong>თემები:</strong> <span id="event-topics"></span></p>
+            <p><strong>ქვიზები:</strong> <span id="quiz-amount"></span></p>
+            <p><strong>სულ ადგილები:</strong> <span id="total-seat-amount"></span></p>
+            <div class="join-frame">
+                <p>შემოუერთდი →</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

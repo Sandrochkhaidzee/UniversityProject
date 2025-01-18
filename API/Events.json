@@ -1,0 +1,204 @@
+[
+  {
+    "id": "1",
+    "eventName": "JavaScript დამწყებებისთვის",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "ისწავლეთ JavaScript-ის საფუძვლები, ენა, რომელიც აძლიერებს ვებს. ძირითადი სინტაქსიდან ინტერაქტიული ვებ გვერდების შექმნამდე, ეს კურსი შექმნილია იმისთვის, რომ დაიწყოთ პროგრამირება."
+      },
+      {
+        "section": "რას ისწავლი",
+        "text": "ცვლადების, მარყუჟების, ფუნქციების და ობიექტების გაგება. შექმენით დინამიური ვებ გვერდები და მოიპოვეთ საფუძველი, რომელიც საჭიროა გაფართოებული ჩარჩოებისთვის, როგორიცაა React ან Angular."
+      },
+      {
+        "section": "რატომ დარეგისტრირდე?",
+        "text": "მიუხედავად იმისა, ახალი ხართ კოდირებაში თუ ცდილობთ გააუმჯობესოთ თქვენი უნარების ნაკრები, ეს კურსი უზრუნველყოფს მყარ ბაზას JavaScript-ში, რაც საშუალებას გაძლევთ შექმნათ ეფექტური ვებ გამოცდილება."
+      }
+    ],
+    "eventDate": "2024-12-28",
+    "eventStartTime": "10:00 AM",
+    "location": "ონლაინ",
+    "price": "$49.99",
+    "totalSeats": 50,
+    "topics": 5,
+    "quizzes": 3,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpD9mrEtU7YUaLiHN9HxHzxWPNuWx9Th59Ig&s"
+  },
+  {
+    "id": "2",
+    "eventName": "ზამთრის პროგრამირების გამოწვევა",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "მიიღე მონაწილეობა ჩვენს ზამთრის პროგრამირების გამოწვევაში! შესანიშნავი შესაძლებლობა გამოცადე შენი კოდირების უნარები და ისწავლო სხვებისგან."
+      },
+      {
+        "section": "როგორ მივიღოთ მონაწილეობა",
+        "text": "დარეგისტრირდით ჩვენს ვებსაიტზე, აირჩიეთ თქვენი გამოწვევა და წარადგინეთ თქვენი გადაწყვეტილებები ლიდერბორდზე ასასვლელად."
+      }
+    ],
+    "eventDate": "2024-12-30",
+    "eventStartTime": "12:00 PM",
+    "location": "ონლაინ",
+    "price": "$19.99",
+    "totalSeats": 100,
+    "topics": 4,
+    "quizzes": 2,
+    "picture": "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/opportunity-bannerImages/1644240833.png"
+  },
+  {
+    "id": "3",
+    "eventName": "დააოსტატე HTML და CSS",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "გამოიკვლიეთ ვებგვერდის სამშენებლო ბლოკები! ეს კურსი HTML-სა და CSS-ში გეხმარებათ შექმნათ ვიზუალურად განსაცვიფრებელი და პასუხისმგებელი ვებსაიტები."
+      },
+      {
+        "section": "რას ისწავლი?",
+        "text": "გაიგე HTML სტრუქტურა, შექმენით ხელმისაწვდომი ვებსაიტები და შეიმუშავეთ განლაგება CSS-ით. ისწავლეთ ძირითადი ცნებები, როგორიცაა Flexbox, Grid და მედია მოთხოვნები.."
+      }
+    ],
+    "eventDate": "2025-01-12",
+    "eventStartTime": "9:00 AM",
+    "location": "ონლაინ",
+    "price": "$39.99",
+    "totalSeats": 60,
+    "topics": 6,
+    "quizzes": 4,
+    "picture": "https://i.ytimg.com/vi/RPoQK0gP1pM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDgHRU65r0b1iEI6RTOpasG0_9b0w"
+  },
+  {
+    "id": "4",
+    "eventName": "პითონის მოწინავე ტექნიკები",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "აიყვანეთ თქვენი Python უნარები შემდეგ დონეზე მონაცემთა მანიპულაციის, ვებ სკრაპინგის და სხვა მოწინავე ტექნიკით."
+      },
+      {
+        "section": "რას ისწავლი?",
+        "text": "დააოსტატე ცნებები, როგორიცაა დეკორატორები, გენერატორები და ასინქრონული პროგრამირება. გამოიკვლიეთ პითონის ბიბლიოთეკები, როგორიცაა Pandas, Beautiful Soup და asyncio."
+      }
+    ],
+    "eventDate": "2025-01-15",
+    "eventStartTime": "3:00 PM",
+    "location": "ონლაინ",
+    "price": "$59.99",
+    "totalSeats": 40,
+    "topics": 7,
+    "quizzes": 5,
+    "picture": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210917204112/Top-10-Advance-Python-Concepts-That-You-Must-Know.png"
+  },
+  {
+    "id": "5",
+    "eventName": "Full-Stack ვებ დეველოპერების კამპუსი",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "ისწავლეთ სრული ვებ აპლიკაციების შექმნა ნულიდან ამ ჩაძირული სრული დასტას ჩატვირთვის საშუალებით."
+      },
+      {
+        "section": "რას ისწავლი?",
+        "text": "დააოსტატე წინა ბოლოების ჩარჩოები, როგორიცაა React, და back-end ტექნოლოგიები, როგორიცაა Node.js და Express. იმუშავეთ მონაცემთა ბაზებთან, როგორიცაა MongoDB და PostgreSQL."
+      }
+    ],
+    "eventDate": "2025-02-01",
+    "eventStartTime": "11:00 AM",
+    "location": "ონლაინ",
+    "price": "$99.99",
+    "totalSeats": 30,
+    "topics": 8,
+    "quizzes": 6,
+    "picture": "https://s3.ap-southeast-1.amazonaws.com/uplyrn.com/uploads%2F0000%2F50%2F2022%2F10%2F11%2Fthe-ultimate-2022-full-stack-web-development-bootcamp-uplyrn.webp"
+  },
+  {
+    "id": "6",
+    "eventName": "თამაშების დეველოპმენტი Unity-თ",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "შექმენი შენი პირველი ვიდეო თამაში Unity-ით, მსოფლიოში ერთ-ერთი ყველაზე პოპულარული თამაშის ძრავით."
+      },
+      {
+        "section": "რას ისწავლი?",
+        "text": "გაიგეთ Unity-ის ინტერფეისი, იმუშავეთ C# სკრიპტირებით და შექმენით 2D და 3D თამაშები თავიდანვე."
+      }
+    ],
+    "eventDate": "2025-02-10",
+    "eventStartTime": "1:00 PM",
+    "location": "ონლაინ",
+    "price": "$79.99",
+    "totalSeats": 50,
+    "topics": 6,
+    "quizzes": 4,
+    "picture": "https://m.media-amazon.com/images/I/81Mjfd9uMpL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": "7",
+    "eventName": "Cloud Computing AWS გამოყენებით",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "დაიწყე Amazon Web Services (AWS) და გაიგე ღრუბლოვანი გამოთვლის საფუძვლები."
+      },
+      {
+        "section": "რას ისწავლი?",
+        "text": "ისწავლეთ აპლიკაციების დანერგვა, მართვა და მასშტაბირება AWS ინსტრუმენტების გამოყენებით, როგორიცაა EC2, S3 და Lambda."
+      }
+    ],
+    "eventDate": "2025-02-15",
+    "eventStartTime": "10:30 AM",
+    "location": "ონლაინ",
+    "price": "$69.99",
+    "totalSeats": 100,
+    "topics": 5,
+    "quizzes": 3,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStG36DJ8oJO-UrYazah4_H32z4QIGpwbAhTw&s"
+  },
+  {
+    "id": "8",
+    "eventName": "მონაცემთა მეცნიერების საფუძვლები",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "დაეშვით მონაცემთა მეცნიერებას პრაქტიკული პროექტებით და ისწავლეთ როგორ გააანალიზოთ და ვიზუალიზაცია მოახდინოთ მონაცემთა ეფექტურად."
+      },
+      {
+        "section": "რას ისწავლი?",
+        "text": "იმუშავეთ პითონის ბიბლიოთეკებთან, როგორიცაა NumPy, Matplotlib და Scikit-learn. გაიგეთ მონაცემთა წინასწარი დამუშავება, ვიზუალიზაცია და მანქანური სწავლების ძირითადი კონცეფციები."
+      }
+    ],
+    "eventDate": "2025-02-20",
+    "eventStartTime": "4:00 PM",
+    "location": "ონლაინ",
+    "price": "$89.99",
+    "totalSeats": 75,
+    "topics": 7,
+    "quizzes": 5,
+    "picture": "https://m.media-amazon.com/images/I/71j0QuAKReL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": "9",
+    "eventName": "კიბერუსაფრთხოების საფუძვლები",
+    "eventDescription": [
+      {
+        "section": "შესავალი",
+        "text": "ისწავლეთ კიბერუსაფრთხოების საფუძვლები და როგორ დავიცვათ სისტემები და ქსელები პოტენციური საფრთხეებისგან."
+      },
+      {
+        "section": "რას ისწავლი?",
+        "text": "გაიგეთ ისეთი ცნებები, როგორიცაა დაშიფვრა, ფაირვოლლები და ეთიკური ჰაკერები. გამოიკვლიეთ კიბერუსაფრთხოებაში გამოყენებული ხელსაწყოები და ინფორმაციის დაცვის საუკეთესო პრაქტიკა."
+      }
+    ],
+    "eventDate": "2025-02-25",
+    "eventStartTime": "2:00 PM",
+    "location": "ონლაინ",
+    "price": "$79.99",
+    "totalSeats": 80,
+    "topics": 6,
+    "quizzes": 4,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG_Yd2SdhhlAtctw9wSfvEaxj6YeJVK5q7og&s"
+  }
+]
