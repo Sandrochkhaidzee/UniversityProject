@@ -42,9 +42,9 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     console.log(JSON.stringify(formDataJson));
     
     // submitToAPI(formDataJson);
-
-    alert("Message sent successfully!");
     document.getElementById('contact-form').reset();
+    
+    alert("Message sent successfully!");
 });
 
 function displayError(message) {
